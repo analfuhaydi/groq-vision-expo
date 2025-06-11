@@ -65,7 +65,9 @@ export default function App() {
       } as any);
 
       // POST request to backend endpoint for image upload
-      const endpoint = "http://<your-ip>:3000/upload"; // Replace with your backend URL
+      const endpoint = `http://<your-ip>:3000/upload`; // Replace with your backend URL
+      // If using a local server, replace <your-ip> with your machine's IPv4 address
+      // you can find your IPv4 Address by running `ifconfig` on macOS/Linux or `ipconfig` on Windows.
       const res = await fetch(endpoint, {
         method: "POST",
         body: formData,
