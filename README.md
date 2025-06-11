@@ -15,4 +15,3 @@ Here's the basic flow we follow in this project:
 5. Then we send it to Groq’s Vision API, asking it to describe the image.
 6. The response is returned to the app and shown to the user.
 
-**if you want to try the app you could open each project in the repo and follow the instruction in the `readme` file**
